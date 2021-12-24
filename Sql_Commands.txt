@@ -1,9 +1,23 @@
-Open XAMPP app 
+Open XAMPP app >>> 
 
-click on start sql
+click on start sql >>>
+
+then click on shell to start command line. >>>
 
 type -> mysql -uroot -p ->To start mysql command line 
 
 Commands in SQL
 
-1. CREATE DATABASE DATABASE_NAME ;
+1.If you want to create a database :-
+   
+   CREATE DATABASE DATABASE_NAME ;
+
+(
+  Rules for creating a database are :-
+   1. Space not allowed
+   2. special character not allowed
+   3. Numeric in front is not allowed >> example 12anshu X
+   4. Reserved words are not allowed >> example database , create ..etc
+)
+
+2.
