@@ -40,4 +40,8 @@ Commands in SQL
      FEES DESC(10,2) ,
      ADDRESS VARCHAR(70) ) ;
 
-6. 
+6. If want to get the list of all the tables you have created :-
+  
+   SHOW TABLES;
+
+7. 
