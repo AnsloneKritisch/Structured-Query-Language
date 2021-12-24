@@ -32,3 +32,12 @@ Commands in SQL
 
     DROP DATABASE DATABASE_NAME ;
 
+5. If you want to create a table :-
+
+   CREATE TABLE TABLE_NAME
+   ( NAME VARCHAR(80) , 
+     AGE INT(10) ,
+     FEES DESC(10,2) ,
+     ADDRESS VARCHAR(70) ) ;
+
+6. 
