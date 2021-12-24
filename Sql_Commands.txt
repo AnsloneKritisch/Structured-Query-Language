@@ -24,3 +24,11 @@ Commands in SQL
 
     SHOW DATABASES ;
 
+3. If you want to go into the database or use database :-
+
+    USE DATABASE_NAME;
+
+4. If you want to delete a database then :-
+
+    DROP DATABASE DATABASE_NAME ;
+
