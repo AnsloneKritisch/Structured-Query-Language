@@ -1,6 +1,8 @@
 Open XAMPP app 
 
-start 
+click on start sql
+
+type -> mysql -uroot -p ->To start mysql command line 
 
 Commands in SQL
 
