@@ -1,0 +1,7 @@
+Open XAMPP app 
+
+start
+
+Commands in SQL
+
+1. CREATE DATABASE DATABASE_NAME ;
