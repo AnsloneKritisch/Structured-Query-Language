@@ -1,6 +1,6 @@
 Open XAMPP app 
 
-start
+start 
 
 Commands in SQL
 
