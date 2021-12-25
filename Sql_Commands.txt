@@ -44,4 +44,9 @@ Commands in SQL
   
    SHOW TABLES;
 
-7. If 
+7. If you want to see the structue of your table :-
+  
+   DESCRIBE TABLE_NAME ;
+        OR
+   DESC TABLE_NAME ;
+
