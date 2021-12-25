@@ -50,3 +50,6 @@ Commands in SQL
         OR
    DESC TABLE_NAME ;
 
+8. If you want delete a table then :-
+
+   DROP TABLE TABLE_NAME;
