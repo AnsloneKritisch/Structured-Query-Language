@@ -59,8 +59,14 @@ Commands in SQL
    INSERT INTO TABLE_NAME ( NAME , AGE , FEES , ADDRESS )
    VALUES ('RAMDAS' , 18 , 1000 , 'DURGAPUR' ) ;
     
-   (Important note -> String such as name should be written insided '' )
+   ( Important note -> String such as name should be written insided )
 
 10. If you want to see the whole table :-
 
     SELECT * FROM TABLE_NAME ;
+
+11. If you want to see only one collumn of the table then :-
+
+    SELECT COLLUMN_NAME_1 , COLLUMN_NAME_2 FROM TABLE_NAME ;
+    
+   ( Important note -> you add as many as collumn you want )
