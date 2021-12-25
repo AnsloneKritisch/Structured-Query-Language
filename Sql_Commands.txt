@@ -61,4 +61,6 @@ Commands in SQL
     
    (Important note -> String such as name should be written insided '' )
 
-10. 
+10. If you want to see the whole table :-
+
+    SELECT * FROM TABLE_NAME ;
