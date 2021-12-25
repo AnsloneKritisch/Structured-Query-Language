@@ -44,4 +44,4 @@ Commands in SQL
   
    SHOW TABLES;
 
-7. 
+7. If 
