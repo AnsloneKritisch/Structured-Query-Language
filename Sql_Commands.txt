@@ -53,3 +53,12 @@ Commands in SQL
 8. If you want delete a table then :-
 
    DROP TABLE TABLE_NAME;
+
+9. If you want to insert data in the table :-
+
+   INSERT INTO TABLE_NAME ( NAME , AGE , FEES , ADDRESS )
+   VALUES ('RAMDAS' , 18 , 1000 , 'DURGAPUR' ) ;
+    
+   (Important note -> String such as name should be written insided '' )
+
+10. 
