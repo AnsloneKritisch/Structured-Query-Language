@@ -83,6 +83,14 @@ Commands in SQL
    SELECT * FROM TABLE_NAME WHERE AGE BETWEEN 15 AND 20 ;
 
   ( Note -> You can use any details in place of age )
+
      
+ Functions starts from here :-
+
+14. If you want to see sums of some details from the table then you can
+    use sum function.
+
+   SELECT SUM(COLUMN_NAME) FROM TABLE_NAME ;
+
 
  
