@@ -77,4 +77,12 @@ Commands in SQL
    
    Example -> SELECT * FROM INFO WHERE FEES >= 600 ;
 
+13. If you want to see some particular details from the table then you can
+    use between and not between.
+
+   SELECT * TABLE_NAME WHERE AGE BETWEEN 15 AND 20 ;
+
+  ( Note -> You can use any details in place of age )
+     
+
  
