@@ -65,8 +65,8 @@ Commands in SQL
 
     SELECT * FROM TABLE_NAME ;
 
-11. If you want to see only one collumn of the table then :-
+11. If you want to see only one column of the table then :-
 
-    SELECT COLLUMN_NAME_1 , COLLUMN_NAME_2 FROM TABLE_NAME ;
+    SELECT COLUMN_NAME_1 , COLUMN_NAME_2 FROM TABLE_NAME ;
     
-   ( Important note -> you add as many as collumn you want )
+   ( Important note -> you add as many as column you want )
