@@ -70,3 +70,11 @@ Commands in SQL
     SELECT COLUMN_NAME_1 , COLUMN_NAME_2 FROM TABLE_NAME ;
     
    ( Important note -> you add as many as column you want )
+
+12. If you want to see some particular details from the table then you can use     where clause
+    
+   SELECT * FROM TABLE_NAME WHERE (CONDITION) ;
+   
+   Example -> SELECT * FROM INFO WHERE FEES >= 600 ;
+
+ 
