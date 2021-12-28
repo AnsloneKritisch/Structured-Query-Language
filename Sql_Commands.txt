@@ -97,6 +97,14 @@ Commands in SQL
 
    SELECT AVG(COLUMN_NAME) FROM TABLE_NAME ;
  
-16. 
+16. If you want to see mininum value of some details from the table then you       can use >> min >> function.
+
+   SELECT MIN(COLUMN_NAME) FROM TABLE_NAME ;
+
+16. If you want to see mininum value of some details from the table then you       can use >> max >> function.
+
+   SELECT MAX(COLUMN_NAME) FROM TABLE_NAME ;
+
+ 
 
  
