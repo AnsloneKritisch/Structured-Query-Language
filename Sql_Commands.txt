@@ -88,9 +88,15 @@ Commands in SQL
  Functions starts from here :-
 
 14. If you want to see sums of some details from the table then you can
-    use sum function.
+    use >> sum >> function.
 
    SELECT SUM(COLUMN_NAME) FROM TABLE_NAME ;
 
+15. If you want to see average of some details from the table then you can
+    use >> avg >> function.
+
+   SELECT AVG(COLUMN_NAME) FROM TABLE_NAME ;
+ 
+16. 
 
  
