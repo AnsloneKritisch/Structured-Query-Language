@@ -101,9 +101,17 @@ Commands in SQL
 
    SELECT MIN(COLUMN_NAME) FROM TABLE_NAME ;
 
-16. If you want to see mininum value of some details from the table then you       can use >> max >> function.
+16. If you want to see maximum value of some details from the table then you       can use >> max >> function.
 
    SELECT MAX(COLUMN_NAME) FROM TABLE_NAME ;
+
+17. If you want to delete any info from the table then .
+
+    DELETE FROM TABLE_NAME WHERE CONDITION ;
+
+    Example -> DELETE FROM INFO WHERE CONDITION ;
+
+18. If you want to add auto creament to create an unique id then 
 
  
 
