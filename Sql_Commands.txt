@@ -111,7 +111,15 @@ Commands in SQL
 
     Example -> DELETE FROM INFO WHERE CONDITION ;
 
-18. If you want to add auto creament to create an unique id then 
+18. If you want to add auto creament to create an unique id then :-
+    
+    CREATE TABLE TABLE_NAME
+    ( SL_NO int(10) AUTO_INCREMENT PRIMARY KEY , 
+      NAME VARCHAR(80) , 
+      AGE INT(10) ,
+      FEES DESC(10,2) ,
+      ADDRESS VARCHAR(70) ) ;
+
 
  
 
