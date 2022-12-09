@@ -6,7 +6,22 @@ then click on shell to start command line. >>>
 
 type -> mysql -uroot -p ->To start mysql command line 
 
+
+
+
+
+---------------------
 Commands in SQL
+-----------------------
+
+
+
+
+
+
+
+
+
 
 1.If you want to create a database :-
    
@@ -20,17 +35,49 @@ Commands in SQL
    4. Reserved words are not allowed >> example database , create ..etc
 )
 
+
+
+
+
+
+
+
 2. If you want to see all the databases created till now :-
 
+
     SHOW DATABASES ;
+
+
+
+
+
+
+
+
+
 
 3. If you want to go into the database or use database :-
 
     USE DATABASE_NAME;
 
+
+
+
+
+
+
+
 4. If you want to delete a database then :-
 
     DROP DATABASE DATABASE_NAME ;
+
+
+
+
+
+
+
+
 
 5. If you want to create a Normal table :-
 
@@ -39,6 +86,9 @@ Commands in SQL
      AGE INT(10) ,
      FEES DESC(10,2) ,
      ADDRESS VARCHAR(70) ) ;
+
+
+
 
 
 5.1 If you want to add constraints in your table :=
@@ -71,9 +121,14 @@ Commands in SQL
     Example
     __________
 
-    
-
-
+     create table student
+    -> (
+    -> roll int(30) PRIMARY KEY ,
+    -> name char(60) NOT NULL ,
+    -> class int(30) DEFAULT(12),
+    -> age int(30) check(age>=16),
+    -> admin int(60) NOT NULL UNIQUE
+    -> );
 
 
 
@@ -84,15 +139,27 @@ Commands in SQL
   
    SHOW TABLES;
 
-7. If you want to see the structue of your table :-
+
+
+
+
+7. If you want to see the structure of your table :-
   
    DESCRIBE TABLE_NAME ;
         OR
    DESC TABLE_NAME ;
 
+
+
+
+
+
 8. If you want delete a table then :-
 
    DROP TABLE TABLE_NAME;
+
+
+
 
 9. If you want to insert data in the table :-
 
@@ -101,9 +168,19 @@ Commands in SQL
     
    ( Important note -> String such as name should be written insided )
 
+
+
+
+
+
+
 10. If you want to see the whole table :-
 
     SELECT * FROM TABLE_NAME ;
+
+
+
+
 
 11. If you want to see only one column of the table then :-
 
@@ -111,11 +188,21 @@ Commands in SQL
     
    ( Important note -> you add as many as column you want )
 
+
+
+
+
+
 12. If you want to see some particular details from the table then you can use     where clause
     
    SELECT * FROM TABLE_NAME WHERE (CONDITION) ;
    
    Example -> SELECT * FROM INFO WHERE FEES >= 600 ;
+
+
+
+
+
 
 13. If you want to see some particular details from the table then you can
     use between and not between.
@@ -123,6 +210,17 @@ Commands in SQL
    SELECT * FROM TABLE_NAME WHERE AGE BETWEEN 15 AND 20 ;
 
   ( Note -> You can use any details in place of age )
+
+
+
+
+14. The ALTER TABLE statement is used to add, delete, or modify columns in an existing table.
+
+    The ALTER TABLE statement is also used to add and drop various constraints on an existing table.
+
+    
+
+
 
      
  Functions starts from here :-
