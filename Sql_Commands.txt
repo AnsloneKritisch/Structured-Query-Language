@@ -247,15 +247,25 @@ Commands in SQL
          MODIFY column_name datatype;
 
 
+15. SELECT Statement
+    
+    1 > Using Arithmetic operator 
+    
+    Example 5:-
+    SELECT  age , age+10 FROM student; 
 
 
+    2 > Operator Precedence ->>> The basic operators used in SQL are * / + - 
+        
+        Operators of the same priority are evaluated From Left to right 
+        Parentheses are used to force prioritized evaluation. 
+        
+        Example :-
+        SELECT  age, 12*age+100 FROM student; 
 
-
-
-
-
-
-
+   3 >   
+   SELECT age+2 "Your Age" from stud ;
+    
 
      
  Functions starts from here :-
