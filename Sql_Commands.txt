@@ -168,7 +168,11 @@ Commands in SQL
     
    ( Important note -> String such as name should be written insided )
 
-
+ insert into student
+    -> ( roll , name , email )
+    -> values
+    -> ( 1 , 'Anshu' , 'alp@gmail.com') ,
+    -> ( 2 , 'Palku' , 'iamsocute@gmail.com');
 
 
 
@@ -199,6 +203,11 @@ Commands in SQL
    
    Example -> SELECT * FROM INFO WHERE FEES >= 600 ;
 
+
+
+12. IF we want to see different or distinct data from attribute : 
+
+   select distinct roll from student ;
 
 
 
