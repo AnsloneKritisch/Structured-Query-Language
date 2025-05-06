@@ -1,3 +1,6 @@
+If you are using XAMPP for Learning SQL
+_________________________________________
+ 
 Open XAMPP app >>> 
 
 click on start sql >>>

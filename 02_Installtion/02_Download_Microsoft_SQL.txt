@@ -1,0 +1,7 @@
+To download Microsoft SQL Server 2022 on Windows, Linux, and Docker containers
+
+Download = Server = https://www.microsoft.com/en-us/sql-server/sql-server-downloads
+
+Download = Server Management = https://learn.microsoft.com/en-us/ssms/download-sql-server-management-studio-ssms
+
+While installing the server choose basic option 
